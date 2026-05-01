@@ -13,10 +13,15 @@ export default function HeroContent() {
         </div>
 
         {/* Main Heading */}
-        <h1 className="text-5xl md:text-6xl md:leading-16 tracking-tight font-light text-white mb-4">
-          <span className="font-medium italic">Создавайте</span> векторы
+        <h1
+          className="text-6xl md:text-8xl leading-none tracking-tight text-white mb-4"
+          style={{ fontFamily: "'Syne', sans-serif" }}
+        >
+          <span className="font-extrabold">Создавайте</span>
           <br />
-          <span className="font-light tracking-tight text-white">за секунды</span>
+          <span className="font-bold italic opacity-80">векторы</span>
+          <br />
+          <span className="font-extrabold">за секунды</span>
         </h1>
 
         {/* Description */}
